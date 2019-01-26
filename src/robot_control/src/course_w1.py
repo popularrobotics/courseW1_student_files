@@ -177,7 +177,10 @@ def autonomous_driving():
     # Do the same thing for sensor 1 and 2
     #
     while True:
-        time.sleep(0.1)  # Let the sensors cool down a bit
+        time.sleep(0.1)  # This command pauses the program for 0.1 seconds.
+        # It lets the ultrasonic sensors cool down a bit.
+        # A complete introduction to the time module will be available in CourseW2.
+        #
         # Fill in some code here to read distances from all 3 sensors,
         # which tells the robot how far is it from obstacles in 3 directions
         # for example
